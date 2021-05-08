@@ -41,8 +41,6 @@ import java.util.List;
 @PlanningSolution
 public class TimeTable {
 
-    // ==========> I LEFT OFF AT https://quarkus.io/guides/optaplanner#the-value-range-providers
-
     @ProblemFactCollectionProperty
     @ValueRangeProvider(id = Lesson.TIMESLOT_RANGE)
     private List<Timeslot> timeslotList;
